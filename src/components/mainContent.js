@@ -11,6 +11,8 @@ const MainContent = () => {
             <div className="card_header">
                 <h2>{item.product_name}</h2>
                 <p>{item.description}</p>
+
+              <i class={item.fonticon}></i>
                 <p className="price">{item.price}<span>{item.currency}</span></p>
                 <div className="btn">Add to cart</div>
             </div>

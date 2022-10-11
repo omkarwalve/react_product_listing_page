@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Header() {
+export default function product() {
     return (
         <nav>
             <div className="logo">Comparbro</div>
@@ -10,6 +10,8 @@ export default function Header() {
                 <a href="https://www.w3schools.com"><li>About us</li></a>
                 <a href="https://www.w3schools.com"><li>Contact</li></a>
             </ul>
+
+          < h1> HELLICOPTER </h1>
             <div className="search">
                 <i className="fa fa-search"></i>
                 <i className="fa fa-shopping-basket"></i>
